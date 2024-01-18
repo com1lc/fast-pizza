@@ -1,3 +1,4 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './ui/Home';
 import Error from './ui/Error';
@@ -12,6 +13,8 @@ import AppLayout from './ui/AppLayout';
 
 const router = createBrowserRouter([
   {
+    // ...
+
     element: <AppLayout />,
     errorElement: <Error />,
     children: [

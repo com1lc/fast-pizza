@@ -1,3 +1,4 @@
+import React from 'react';
 import { formatCurrency } from '../../utils/helpers';
 import DeleteItem from './DeleteItem';
 import UpdateItemQuantity from './UpdateItemQuantity';
